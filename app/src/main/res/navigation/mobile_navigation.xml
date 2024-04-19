@@ -15,4 +15,9 @@
         android:name="ru.mirea.sukhanovmd.mireaproject.WebViewFragment"
         android:label="fragment_web_view"
         tools:layout="@layout/fragment_web_view" />
+    <fragment
+        android:id="@+id/factorialFragment"
+        android:name="ru.mirea.sukhanovmd.mireaproject.FactorialFragment"
+        android:label="fragment_factorial"
+        tools:layout="@layout/fragment_factorial" />
 </navigation>

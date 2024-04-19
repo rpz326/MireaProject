@@ -12,5 +12,9 @@
             android:id="@+id/webViewFragment"
             android:icon="@drawable/baseline_web_24"
             android:title="Браузер" />
+        <item
+            android:id="@+id/factorialFragment"
+            android:icon="@drawable/baseline_calculate_24"
+            android:title="Факториал" />
     </group>
 </menu>
