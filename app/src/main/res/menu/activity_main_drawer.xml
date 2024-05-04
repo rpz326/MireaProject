@@ -16,5 +16,17 @@
             android:id="@+id/factorialFragment"
             android:icon="@drawable/baseline_calculate_24"
             android:title="Факториал" />
+        <item
+            android:id="@+id/sensorFragment"
+            android:icon="@drawable/baseline_air_24"
+            android:title="Датчик влажности" />
+        <item
+            android:id="@+id/noteFragment"
+            android:icon="@drawable/baseline_camera_enhance_24"
+            android:title="Заметка с фото" />
+        <item
+            android:id="@+id/volumeFragment"
+            android:icon="@drawable/baseline_audiotrack_24"
+            android:title="Уровень громкости" />
     </group>
 </menu>

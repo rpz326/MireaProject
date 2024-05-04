@@ -20,4 +20,19 @@
         android:name="ru.mirea.sukhanovmd.mireaproject.FactorialFragment"
         android:label="fragment_factorial"
         tools:layout="@layout/fragment_factorial" />
+    <fragment
+        android:id="@+id/sensorFragment"
+        android:name="ru.mirea.sukhanovmd.mireaproject.SensorFragment"
+        android:label="fragment_sensor"
+        tools:layout="@layout/fragment_sensor" />
+    <fragment
+        android:id="@+id/noteFragment"
+        android:name="ru.mirea.sukhanovmd.mireaproject.NoteFragment"
+        android:label="fragment_note"
+        tools:layout="@layout/fragment_note" />
+    <fragment
+        android:id="@+id/volumeFragment"
+        android:name="ru.mirea.sukhanovmd.mireaproject.VolumeFragment"
+        android:label="fragment_volume"
+        tools:layout="@layout/fragment_volume" />
 </navigation>
