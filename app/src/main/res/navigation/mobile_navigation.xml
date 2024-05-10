@@ -35,4 +35,31 @@
         android:name="ru.mirea.sukhanovmd.mireaproject.VolumeFragment"
         android:label="fragment_volume"
         tools:layout="@layout/fragment_volume" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="ru.mirea.sukhanovmd.mireaproject.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/fileFragment"
+        android:name="ru.mirea.sukhanovmd.mireaproject.FileFragment"
+        android:label="fragment_file"
+        tools:layout="@layout/fragment_file" />
+    <fragment
+        android:id="@+id/fileCreateFragment"
+        android:name="ru.mirea.sukhanovmd.mireaproject.FileCreateFragment"
+        android:label="fragment_file_create"
+        tools:layout="@layout/fragment_file_create" />
+    <fragment
+        android:id="@+id/fileEditFragment"
+        android:name="ru.mirea.sukhanovmd.mireaproject.FileEditFragment"
+        android:label="fragment_file_edit"
+        tools:layout="@layout/fragment_file_edit">
+        <argument
+            android:name="fileName"
+            app:argType="string" />
+    </fragment>
+    <action
+        android:id="@+id/action_fileFragment_to_fragmentFileEdit"
+        app:destination="@id/fileEditFragment" />
 </navigation>

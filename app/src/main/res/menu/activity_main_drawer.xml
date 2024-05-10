@@ -28,5 +28,13 @@
             android:id="@+id/volumeFragment"
             android:icon="@drawable/baseline_audiotrack_24"
             android:title="Уровень громкости" />
+        <item
+            android:id="@+id/profileFragment"
+            android:icon="@drawable/baseline_emoji_emotions_24"
+            android:title="Профиль" />
+        <item
+            android:id="@+id/fileFragment"
+            android:icon="@drawable/baseline_file_open_24"
+            android:title="Конвертер регистров" />
     </group>
 </menu>
