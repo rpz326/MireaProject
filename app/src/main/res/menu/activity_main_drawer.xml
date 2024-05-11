@@ -36,5 +36,13 @@
             android:id="@+id/fileFragment"
             android:icon="@drawable/baseline_file_open_24"
             android:title="Конвертер регистров" />
+        <item
+            android:id="@+id/userFragment"
+            android:icon="@drawable/baseline_key_24"
+            android:title="Авторизация" />
+        <item
+            android:id="@+id/exchangeRatesFragment"
+            android:icon="@drawable/baseline_currency_ruble_24"
+            android:title="Курс валют" />
     </group>
 </menu>

@@ -62,4 +62,14 @@
     <action
         android:id="@+id/action_fileFragment_to_fragmentFileEdit"
         app:destination="@id/fileEditFragment" />
+    <fragment
+        android:id="@+id/userFragment"
+        android:name="ru.mirea.sukhanovmd.mireaproject.UserFragment"
+        android:label="fragment_user"
+        tools:layout="@layout/fragment_user" />
+    <fragment
+        android:id="@+id/exchangeRatesFragment"
+        android:name="ru.mirea.sukhanovmd.mireaproject.ExchangeRatesFragment"
+        android:label="fragment_exchange_rates"
+        tools:layout="@layout/fragment_exchange_rates" />
 </navigation>
