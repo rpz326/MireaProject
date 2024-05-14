@@ -72,4 +72,9 @@
         android:name="ru.mirea.sukhanovmd.mireaproject.ExchangeRatesFragment"
         android:label="fragment_exchange_rates"
         tools:layout="@layout/fragment_exchange_rates" />
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="ru.mirea.sukhanovmd.mireaproject.MapFragment"
+        android:label="fragment_map"
+        tools:layout="@layout/fragment_map" />
 </navigation>

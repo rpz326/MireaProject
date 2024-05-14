@@ -44,5 +44,9 @@
             android:id="@+id/exchangeRatesFragment"
             android:icon="@drawable/baseline_currency_ruble_24"
             android:title="Курс валют" />
+        <item
+            android:id="@+id/mapFragment"
+            android:icon="@drawable/baseline_map_24"
+            android:title="Заведения" />
     </group>
 </menu>
