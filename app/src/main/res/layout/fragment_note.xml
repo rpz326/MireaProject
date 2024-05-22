@@ -34,9 +34,11 @@
 
     <ImageView
         android:id="@+id/photoImageView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/createNoteButton"
+        android:layout_width="225dp"
+        android:layout_height="300dp"
+        android:layout_below="@id/noteTextView"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop"
         android:visibility="gone"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"/>
@@ -47,8 +49,17 @@
         android:layout_height="wrap_content"
         android:text=""
         android:textSize="18sp"
-        android:layout_below="@id/photoImageView"
+        android:layout_below="@id/createNoteButton"
         android:visibility="gone"
         android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/deleteNoteButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/photoImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Удалить заметку" />
 
 </RelativeLayout>
